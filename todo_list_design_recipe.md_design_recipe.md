@@ -62,8 +62,7 @@ todo_list.list # => ["Vacuum the house"]
 # 5
 todo_list = TodoList.new
 todo_list.add("Wash the car")
-todo_list.complete("Have breakfast")
-todo_list.list # fails "No such task exists."
+todo_list.complete("Have breakfast") # fails "No such task exists."
 
 
 4. Implement the Behaviour
